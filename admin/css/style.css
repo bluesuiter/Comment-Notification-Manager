@@ -1,0 +1,55 @@
+.widefat.cnmTbl{
+    max-width:96%;
+    text-transform: capitalize;
+    text-align:center;
+}
+
+.widefat.cnmTbl th{
+    text-align: center;
+    font-weight: bold;
+}
+
+.cnmformcontainer{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+}
+
+.inner_container{
+    position: relative;
+    top: 32.5%;
+    width: 25%;
+    background: #fff;
+    padding: 2.5%;
+    margin: 0 auto;
+}
+
+._cnmForm{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5%;
+    text-align: center;
+}
+
+._cnmClose{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: #b45;
+    color: #fff;
+    cursor: pointer;
+    border-bottom-left-radius: 5px;
+}
+
+._cnmClose:hover{
+    color: #ff0;
+}   
+
+div#loding_plceholdr img {
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    display: block;
+}
