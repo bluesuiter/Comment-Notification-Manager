@@ -88,7 +88,7 @@ class _cnmAdminInterface{
         ?>
             <tr>
                 <td><?php echo $user->data->display_name ?></td>
-                <td><?php echo $user->roles{0} ?></td>
+                <td><?php echo isset($user->roles{0}) ? $user->roles{0} : '' ?></td>
                 <td>
                     <?php $meta = get_userdata(get_user_meta($user->ID, 'comment_notification_forward', true)) ?>
                     <?php echo (!empty($meta) ? $meta->user_login : 'Self'); ?>
