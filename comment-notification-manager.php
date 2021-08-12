@@ -4,7 +4,7 @@
 Plugin Name: Comment Notification Manager
 Plugin URI: 
 Description: 
-Version: 0.6.06
+Version: 1.0.0
 Author: BlueSuiter
 Author URI: 
 Donate link: 
